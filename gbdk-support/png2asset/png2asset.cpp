@@ -1472,7 +1472,7 @@ bool export_c_file(void) {
 				fprintf(file, "BANKREF_EXTERN(%s_tiles_info)\n", data_name.c_str());
 				fprintf(file, "const struct MapInfo %s = {\n", data_name.c_str());
 				fprintf(file, "\t%s_map, //map\n", data_name.c_str());
-				fprintf(file, "\t%d, //with\n", image.w >> 3);
+				fprintf(file, "\t%d, //width\n", image.w >> 3);
 				fprintf(file, "\t%d, //height\n", image.h >> 3);
 				if (use_map_attributes && map_attributes.size())
 					fprintf(file, "\t%s_map_attributes, //map attributes\n", data_name.c_str());
