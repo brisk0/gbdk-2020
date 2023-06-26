@@ -7,7 +7,7 @@ __Supported Consoles:__ [(see docs)](https://gbdk-2020.github.io/gbdk-2020/docs/
 - Sega Master System & Game Gear
 - Mega Duck / Cougar Boy
 
-Expirimental consoles (not yet fully functional)
+Experimental consoles (not yet fully functional)
   - MSXDOS
   - NES
 
